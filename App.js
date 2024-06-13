@@ -51,7 +51,7 @@ app.post("/login", (req, res) => {
                         )
 
                     } else {
-                        res.json({ "status": "Incorrect password","userid":response[0]._id })
+                        res.json({ "status": "Incorrect password"})
                     }
                 })
             } else {
